@@ -385,12 +385,12 @@ function App() {
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
-                          /*
-//                           claimNFTs();
-//                           getData(); */
+                          
+                          claimNFTs();
+                          getData();
                         }}
                       >
-                        {claimingNft ? "MINTING" : "PAUSED"}
+                        {claimingNft ? "MINTING" : "MINT"}
                       </StyledButton> 
                     </s.Container> 
                   </>
