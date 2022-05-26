@@ -196,28 +196,8 @@ function App() {
 
   return (
     <s.Screen>
-   {/* /*  */}
-         <s.Container jc={"right"} ai={"right"} style={{ width: "100%" }}>
-         <img class="bolt" src="https://labyrinthineunreal.io/assets/images/backgrounds/pspf.jpg" alt="" loading="lazy"></img>
-          
-         <span
-              style={{
-                textAlign: "right",
-              }}
-            >
-
-              <StyledButton
-                style={{
-                  margin: "0px",
-                }}
-                onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
-                }}
-              >
-                {CONFIG.MARKETPLACE}
-              </StyledButton>
-            </span>          
-        </s.Container>           */
+    
+ 
     
     
        <s.Container
@@ -266,7 +246,7 @@ function App() {
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
-            {/* <span
+            <span
               style={{
                 textAlign: "center",
               }}
@@ -282,7 +262,7 @@ function App() {
               >
                 {CONFIG.MARKETPLACE}
               </StyledButton>
-            </span> */}
+            </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
