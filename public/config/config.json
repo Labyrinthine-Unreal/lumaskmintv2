@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x5b49D7b56672A50d51eBE5966701b280a92E7b79",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x5b49D7b56672A50d51eBE5966701b280a92E7b79",
+  "CONTRACT_ADDRESS": "0x87DCeb0bc6B3532A19e2C2D76DC209f015419daB",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x87DCeb0bc6B3532A19e2C2D76DC209f015419daB",
   "NETWORK": {
     "NAME": "rEthereum",
     "SYMBOL": "rETH",
@@ -9,8 +9,8 @@
   "NFT_NAME": "Initiation Mask",
   "SYMBOL": "MASK",
   "MAX_SUPPLY": 7110,
-  "WEI_COST": 150000000000000000,
-  "DISPLAY_COST": 0.15,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.001,
   "GAS_LIMIT": 250000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://testnet.opensea.io//",
