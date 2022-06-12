@@ -131,7 +131,7 @@ function App() {
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
-    .addToPlotWhitelist(1,blockchain.account) //mintAmount, "https://ipfs.io/ipfs/Qmf5ArUFQyuYBd591Ext3Z4WzXjWzxAd8vciF6dfbmC1P6?filename=gh.gif"
+    .mintNFTs(mintAmount) //mintAmount, "https://ipfs.io/ipfs/Qmf5ArUFQyuYBd591Ext3Z4WzXjWzxAd8vciF6dfbmC1P6?filename=gh.gif"
     .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
@@ -387,10 +387,10 @@ function App() {
                           e.preventDefault();
                           
                           claimNFTs();
-                          getData();
+                          getData(); 
                         }}
                       >
-                        {claimingNft ? "MINTING" : "MINT"}
+                        {claimingNft ? "whitelisting" : "Whitelist"}
                       </StyledButton> 
                     </s.Container> 
                   </>
