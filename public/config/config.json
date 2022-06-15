@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xCafF693Ce18f5E3A8173191FAb25E4269Fc2025b",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xCafF693Ce18f5E3A8173191FAb25E4269Fc2025b",
+  "CONTRACT_ADDRESS": "0x273d5743D427ee42e5E1FA6f6d2DEF107470AEC2",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x273d5743D427ee42e5E1FA6f6d2DEF107470AEC2",
   "NETWORK": {
     "NAME": "rEthereum",
     "SYMBOL": "rETH",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.00,
   "GAS_LIMIT": 250000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://testnet.opensea.io//",
+  "MARKETPLACE_LINK": "https://testnet.opensea.io/",
   "SHOW_BACKGROUND": true
 }
