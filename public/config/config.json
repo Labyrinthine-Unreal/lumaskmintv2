@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0x323f86727eBe2141dc5A25f2c642307C00C9595a",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x323f86727eBe2141dc5A25f2c642307C00C9595a",
+  "CONTRACT_ADDRESS": "0x4325Bc099b62dFf9BA44C5feC6D54481732209f6",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x4325Bc099b62dFf9BA44C5feC6D54481732209f6",
   "NETWORK": {
     "NAME": "rEthereum",
     "SYMBOL": "rETH",
     "ID": 4
   },
-  "NFT_NAME": "TaurosWorld",
-  "SYMBOL": "TAU",
-  "MAX_SUPPLY": 14220,
-  "WEI_COST": 0,
-  "DISPLAY_COST": 0.0,
+  "NFT_NAME": "Intitation Mask",
+  "SYMBOL": "MASK",
+  "MAX_SUPPLY": 7110,
+  "WEI_COST": 150000000000000000,
+  "DISPLAY_COST": 0.15,
   "GAS_LIMIT": 250000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://testnet.opensea.io/",
