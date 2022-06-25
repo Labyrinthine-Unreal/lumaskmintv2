@@ -423,7 +423,7 @@ function App() {
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] =  useState(false);
   const [mintAmount, setMintAmount] = useState(1);
-  const [CONFIG2, SET_CONFIG2] = useState({
+  const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
     NETWORK: {
