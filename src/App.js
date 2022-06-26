@@ -6,7 +6,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import dao from './dao';
+
 // import art_gallery from './art-gallery.mp4';
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -418,13 +418,7 @@ function App() {
                 {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>  
-        <span
-              style={{
-                textAlign: "center",
-              }}
-            >
-            <Route path='./dao' element={<dao/>} />
-      </span>
+
         </s.Container>    
     </s.Screen>
   );
