@@ -423,7 +423,7 @@ function App() {
                 textAlign: "center",
               }}
             >
-            <Route path='/dao' element={<dao/>} />
+            <Route path='./dao' element={<dao/>} />
       </span>
         </s.Container>    
     </s.Screen>
