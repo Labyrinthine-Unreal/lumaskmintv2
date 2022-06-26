@@ -1,9 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import App from 'dao';
 // import art_gallery from './art-gallery.mp4';
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -392,21 +395,26 @@ function App() {
             /> */}
           </s.Container>
         </ResponsiveWrapper>
-        <s.SpacerMedium />
-
-            
-            
-            
-            
-            
-         
- 
-            
-            
-            
-            
-            
+        <s.SpacerMedium />    
       </s.Container>
+
+
+
+        <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
+        {/* <img class="bolt" src="https://labyrinthineunreal.io/assets/images/backgrounds/pspf.jpg" alt="" loading="lazy"></img> */}
+          
+        <span
+    <Router>
+    <Routes>
+        <Route path='/dao' element={<dao/>} />
+    </Routes>
+    </Router>
+            </span>          
+        </s.Container>  
+
+
+
+
         <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
         {/* <img class="bolt" src="https://labyrinthineunreal.io/assets/images/backgrounds/pspf.jpg" alt="" loading="lazy"></img> */}
           
