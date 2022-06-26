@@ -419,7 +419,11 @@ function App() {
               </StyledButton>
             </span>  
         <span>
+        <Router>
+        <Routes>
               <Route path="/Dao" element={<Dao/>} />
+        </Routes>
+        </Router>
                   
         </s.Container>    
     </s.Screen>
