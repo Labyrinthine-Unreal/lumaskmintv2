@@ -95,7 +95,7 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
-function App() {
+function dao() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
@@ -432,4 +432,4 @@ function App() {
   );
 }
 
-export default App;
+export default dao;
