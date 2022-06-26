@@ -398,23 +398,6 @@ function App() {
         <s.SpacerMedium />    
       </s.Container>
 
-
-
-        <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
-        {/* <img class="bolt" src="https://labyrinthineunreal.io/assets/images/backgrounds/pspf.jpg" alt="" loading="lazy"></img> */}
-          
-        <span
-    <Router>
-    <Routes>
-        <Route path='/dao' element={<dao/>} />
-    </Routes>
-    </Router>
-            </span>          
-        </s.Container>  
-
-
-
-
         <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
         {/* <img class="bolt" src="https://labyrinthineunreal.io/assets/images/backgrounds/pspf.jpg" alt="" loading="lazy"></img> */}
           
@@ -434,7 +417,14 @@ function App() {
               >
                 {CONFIG.MARKETPLACE}
               </StyledButton>
-            </span>          
+            </span>  
+        <span
+              style={{
+                textAlign: "center",
+              }}
+            >
+            <Route path='/dao' element={<dao/>} />
+      </span>
         </s.Container>    
     </s.Screen>
   );
