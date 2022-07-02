@@ -436,7 +436,7 @@ function Dao() {
                   margin: "0px",
                 }}
                 onClick={(e) => {
-                  window.open('../App', "_blank");
+                  window.open('./App', "_blank");
                 }}
               >
                 Land

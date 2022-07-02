@@ -7,7 +7,7 @@ import { fetchData } from "../redux/data/dataActions";
 import * as s from "../styles/globalStyles";
 import styled from "styled-components";
 // import styled from "styled-components";
-// import land from "./land";
+import land from "./land";
 
 // import art_gallery from './art-gallery.mp4';
 const truncate = (input, len) =>
