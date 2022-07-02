@@ -409,16 +409,17 @@ function App() {
               }}
             >
 
-              <StyledButton
+<StyledButton
                 style={{
                   margin: "0px",
                 }}
                 onClick={(e) => {
-                  window.open('CONFIG.MARKETPLACE_LINK', "_blank");
+                  window.open('../App', "_blank");
                 }}
               >
-                {CONFIG.MARKETPLACE}
+                Land
               </StyledButton>
+            
             </span>                
         </s.Container>     
     </s.Screen>
