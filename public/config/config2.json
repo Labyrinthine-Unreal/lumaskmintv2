@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xc178E31E141cdf4dA101fe027BAFca98D255a62a",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xc178E31E141cdf4dA101fe027BAFca98D255a62a",
+  "CONTRACT_ADDRESS": "0xA8434A3dD95A34f0c5af819C23D5daB074462Dc4",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xA8434A3dD95A34f0c5af819C23D5daB074462Dc4",
   "NETWORK": {
     "NAME": "rEthereum",
     "SYMBOL": "rETH",
     "ID": 4
   },
-  "NFT_NAME": "TaurosDAO",
-  "SYMBOL": "TAUROS",
+  "NFT_NAME": "TaurosWorld",
+  "SYMBOL": "WRLD",
   "MAX_SUPPLY": 7110,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.05,
+  "WEI_COST": 0.00000000000000000,
+  "DISPLAY_COST": 0.00,
   "GAS_LIMIT": 250000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://testnet.opensea.io/",
