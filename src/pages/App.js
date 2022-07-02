@@ -414,7 +414,7 @@ function App() {
                   margin: "0px",
                 }}
                 onClick={(e) => {
-                  window.open('../App', "_blank");
+                  window.open('../Land', "_blank");
                 }}
               >
                 Land
